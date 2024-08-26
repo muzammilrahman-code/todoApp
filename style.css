@@ -10,8 +10,8 @@
     padding: 10px;
 }
 .todo{
-    width: 100%;
-    max-width: 500px;
+    width: 400px;
+/*     max-width: 500px; */
     background: #fff;
     margin: 100px auto ;
     padding: 20px 30px 50px;
@@ -99,4 +99,20 @@ ul li span{
 }
 ul li span:hover{
     background: #a3b4d6;
+}
+
+
+@media screen and (max-width: 540px){
+    .todo{
+        width: 360px;
+        padding: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .todo{
+        width: 330px;
+      
+    }
+   
+    
 }
